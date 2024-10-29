@@ -15,14 +15,27 @@ The primary source for this analysis is the Sales Data provided by the retail st
   3.  for Data Analysis
   4.  for Data Visualisation
      
-- Structured Query Language (SQL)
+- Structured Query Language (SQL) [Download Here](https://www.microsoft.com/sql-server.com)
 - Microsoft Power BI
 - Github for portfolio building
 - Data Exploration in Excel
 
   ### Data Cleaning and Preparations
   In the initial phase, we perform an initial exploration and summary of the sales data to establish foundational insights:
- 1.  Pivot Tables is used to aggregate total sales by product, region, and month.
- 2.   Excel Formulas is used to calculate essential metrics like average sales per product and Total revenue by region.
- 3.   Generate additional reports to highligh unique trends like emerging top-selling products.
+  1. Removed duplicates
+  2. Generated a new variable "Total Sales" from Unit Price and Quantity.
+  3. Validate Data Accuracy
   
+## Exploratory Data Analysis
+This is where Pivot Table, Excel Formulas is used to answer some questions about the data, calculate essential metrics. and highlight unique trends like emerging top selling.
+- What is the total sales for each product category?
+- What is the number of sales transactions in each region?
+- What is the total revenue per product?
+- What is the monthly sales total for the current year?
+- Who are the top 5 customers by total purchase amount?
+- What is the total sale percentage for each region?
+- Which products has no sales in the last quarter?
+
+## Data Analysis
+
+## Data Visualisation
