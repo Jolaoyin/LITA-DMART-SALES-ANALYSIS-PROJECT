@@ -42,4 +42,5 @@ This is where a series of SQL queries is executed to extract key insights from t
 
 ```SQL
 
+
 ## Data Visualisation
