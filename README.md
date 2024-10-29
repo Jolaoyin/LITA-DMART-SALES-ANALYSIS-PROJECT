@@ -3,7 +3,7 @@
 ## Project Title: Dmart Sales Analysis
 
 ## Project Overview
-The LITA DMart Sales Analysis and Dashboard Project aims to analyse and visualise DMart's sales performance, delivering actionable insights into customer purchasing patterns, product popularity, and regional sales trends for 2023 and 2024. This project uncovers the key factors influencing DMart's sales, providing stakeholders with a detailed understanding of growth opportunities and facilitating informed decision-making through data-driven insights.
+The LITA DMart Sales Analysis and Dashboard Project aims to analyse and visualise DMart's sales performance, delivering actionable insights into customer purchasing patterns, product popularity, and regional sales trends for 2023 and 2024. This project uncovers the key factors influencing the retail store, providing stakeholders with a detailed understanding of growth opportunities and facilitating informed decision-making through data-driven insights.
 
 ## Data Sources
 The primary source for this analysis is the Sales Data provided by the retail store, which includes key metrics such as OrderID, CustomerID, Product, Region, Order date, Quantity and Unit Price. This comprehensive dataset enables a thorough examination of sales performance and trends.
