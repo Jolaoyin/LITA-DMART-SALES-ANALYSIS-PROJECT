@@ -15,7 +15,7 @@ The primary source for this analysis is the Sales Data provided by the retail st
   3.  for Data Analysis
   4.  for Data Visualisation
      
-- Structured Query Language (SQL) [Download Here](https://www.microsoft.com/sql-server.com)
+- Structured Query Language (SQL)
 - Microsoft Power BI
 - Github for portfolio building
 - Data Exploration in Excel
@@ -37,5 +37,8 @@ This is where Pivot Table, Excel Formulas is used to answer some questions about
 - Which products has no sales in the last quarter?
 
 ## Data Analysis
+This is where a series of SQL queries is executed to extract key insights from the dataset to facilitate a comprehensice data-driven decision-making.
+
+```SQL
 
 ## Data Visualisation
