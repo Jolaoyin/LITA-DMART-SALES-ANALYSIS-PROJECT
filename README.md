@@ -9,10 +9,20 @@ The LITA DMart Sales Analysis and Dashboard Project aims to analyse and visualis
 The primary source for this analysis is the Sales Data provided by the retail store, which includes key metrics such as OrderID, CustomerID, Product, Region, Order date, Quantity and Unit Price. This comprehensive dataset enables a thorough examination of sales performance and trends.
 
 ## Tools Used
-- Microsoft Excel for
+- Microsoft Excel [Download Here](https://www.microsoft.com)
+  1. for Data Cleaning to remove duplicates values,
+  2. for  Data Transformation by Creating New Column "Total Sales",
+  3.  for Data Analysis
+  4.  for Data Visualisation
+     
+- Structured Query Language (SQL)
+- Microsoft Power BI
+- Github for portfolio building
 - Data Exploration in Excel
-In Excel, we perform an initial exploration and summary of the sales data to establish foundational insights:
 
-Pivot Tables: Use pivot tables to aggregate total sales by product, region, and month, setting the stage for deeper analysis.
-Excel Formulas: Calculate essential metrics like average sales per product and total revenue by region, which will inform broader trends and benchmarks.
-Reports: Generate additional reports to highlight any unique or unexpected trends, such as emerging top-selling products or sudden regional growth.
+  ### Data Cleaning and Preparations
+  In the initial phase, we perform an initial exploration and summary of the sales data to establish foundational insights:
+ 1.  Pivot Tables is used to aggregate total sales by product, region, and month.
+ 2.   Excel Formulas is used to calculate essential metrics like average sales per product and Total revenue by region.
+ 3.   Generate additional reports to highligh unique trends like emerging top-selling products.
+  
