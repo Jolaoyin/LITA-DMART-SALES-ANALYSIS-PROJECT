@@ -39,7 +39,7 @@ EDA is where Pivot Table, Excel Formulas is used to answer some questions about 
 - Which products has no sales in the last quarter?
 
 ## Data Analysis
-This is where a series of SQL queries is executed to extract key insights from the dataset to facilitate a comprehensice data-driven decision-making.
+This is where a series of SQL queries is executed to extract key insights from the dataset to facilitate a comprehensice data-driven decision-making. The dataset was loaded into the SQL Server.
 
 ```SQL
 Create Database LITAProject_DB
