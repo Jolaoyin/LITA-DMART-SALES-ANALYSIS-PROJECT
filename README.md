@@ -37,7 +37,7 @@ EDA is where Pivot Table, Excel Formulas is used to answer some questions about 
 - Which products has no sales in the last quarter?
 
 ## Data Analysis
-EXCEL
+EXCEL FORMULA
 AVERAGE SALES PER PRODUCTS
 |   PRODUCTS   |             FORMULA                | AVG. SALES|
 |--------------|------------------------------------|-----------|
@@ -48,7 +48,14 @@ AVERAGE SALES PER PRODUCTS
 |AVERAGE  SHOE |=AVERAGEIF(C2:C9922,C6452,H2:H9922) |   308.70  |
 |AVERAGE SOCKS |=AVERAGEIF(C2:C9922,C8439,H2:H9922)	|   121.82  |
 
-
+TOTAL REVENUE BY REGION	
+|REGION| TOTAL REVENUE| FORMULA|
+|------|--------------|--------|
+|SOUTH |   927,820    |=SUMIF(D2:D9922,D2,H2:H9922    |
+|WEST  |   300,345    |=SUMIF(D2:D9922,D3,H2:H9922)   |
+|NORTH |   387,000    |=SUMIF(D2:D9922,D1487,H2:H9922)|
+|EAST	 |   485,925    |=SUMIF(D2:D9922,D1486,H2:H9922)|
+|TOTAL |   2,101,090  |              =SUM(K12:K15)    |
 
 This is where a series of SQL queries is executed to extract key insights from the dataset to facilitate a comprehensice data-driven decision-making. The dataset was loaded into the SQL Server.
 
