@@ -31,6 +31,7 @@ The primary source for this analysis is the Sales Data provided by the retail st
 EDA is where Pivot Table, Excel Formulas is used to answer some questions about the data, calculate essential metrics. and highlight unique trends like emerging top selling.
 - What is the total sales for each product category?
 - What is the number of sales transactions in each region?
+- What is the highest selling product bt total sales value?
 - What is the total revenue per product?
 - What is the monthly sales total for the current year?
 - Who are the top 5 customers by total purchase amount?
@@ -41,7 +42,61 @@ EDA is where Pivot Table, Excel Formulas is used to answer some questions about 
 This is where a series of SQL queries is executed to extract key insights from the dataset to facilitate a comprehensice data-driven decision-making.
 
 ```SQL
+Create Database LITAProject_DB
 
+Select * From [dbo].[LITACapstone_Dataset_SalesData]
+
+----Totalsales for Each Products
+Select Product, sum(Total_Sales) as Total_Sales
+from [dbo].[LITACapstone_Dataset_SalesData]
+Group by Product
+
+---Number of Sale Transaction in Each Region
+Select Region, COUNT(Total_Sales) as Number_of_SalesTransaction
+From [dbo].[LITACapstone_Dataset_SalesData]
+Group by Region
+
+----Highest Selling Product by Total Sales Values
+Select Top 1 Product, sum(Quantity) as Total_Sales
+From [dbo].[LITACapstone_Dataset_SalesData]
+Group by Product
+Order by Total_Sales DESC
+
+---Total Revenue by Product
+Select Product, SUM(Total_Sales) as TotalRevenue
+from [dbo].[LITACapstone_Dataset_SalesData]
+Group by Product
+
+---Monthly Sales Total for Current Year
+Select Month(OrderDate) as Month, sum(Total_Sales) as Total_Sales
+From [dbo].[LITACapstone_Dataset_SalesData]
+Where Year(OrderDate) = Year(Getdate())
+Group by Month(OrderDate)
+Order by Month(OrderDate);
+
+----5 Top Customers by Total Purchase Amount
+Select Top 5 Customer_Id, sum(Total_Sales) as Total_Sales
+From [dbo].[LITACapstone_Dataset_SalesData]
+Group by Customer_Id
+Order by sum(Total_Sales) Desc
+
+---Percentage of Total Sales Contributed by Each Region
+Select Region, Sum(Quantity) as Total_Sales,
+Round ((Sum(Quantity) * 100 /
+       Cast((Select Sum(Quantity)  FROM [dbo].[LITACapstone_Dataset_SalesData]) as float)), 2) as Percentage
+From [dbo].[LITACapstone_Dataset_SalesData]
+Group by Region
+Order by Percentage Desc;
+
+ ---Products With No Sales In The Last Quarter
+ Select Distinct Product, OrderId, Quantity
+ From [dbo].[LITACapstone_Dataset_SalesData]
+ Where Product Not In
+ (Select distinct Product
+ From [dbo].[LITACapstone_Dataset_SalesData]
+ Where OrderDate >=DATEADD(Quarter, -1, GETDATE())
+ )
+ AND OrderDate >=DATEADD(Quarter, -1, GETDATE())
 ```
 
 ## Data Visualisation
