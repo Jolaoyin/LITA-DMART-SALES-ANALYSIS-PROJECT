@@ -16,10 +16,8 @@ The primary source for this analysis is the Sales Data provided by the retail st
   4. for Data Visualisation
 
 - Structured Query Language (SQL)
-- Microsoft Power BI:
- 1. Used to create interactive visual dashboards
-- Github:
- 1. for portfolio building
+- Microsoft Power BI: Used to create interactive visual dashboards
+- Github: for portfolio building
 
   ### Data Cleaning and Preparations
   In the initial phase, we perform an initial exploration and summary of the sales data to establish foundational insights:
