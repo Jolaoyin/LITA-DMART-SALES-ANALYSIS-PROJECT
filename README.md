@@ -117,5 +117,13 @@ Order by Percentage Desc;
  AND OrderDate >=DATEADD(Quarter, -1, GETDATE())
 ```
 
-## Data Visualisation
+## Data Visualisation Using Excel
+Created pivot tables and reports for visualizing the sales data in Excel.
 
+## Data Visualisation Using Power BI for Sales Data
+
+### Steps used to build an interactive PowerBI Dashboard
+1. Import and Transform Data: Imoorted, transformed and loaded sales data.
+3. Build Visualizations: Use bar, column,line, donut and pie charts to represent sales data across regions, sales,order dates, products etc.
+4. Add KPI and Slicers: Included KPIs for performance tracking and slicers for filtering data by orderdate.
+5. Format and Share: Customized the dashboard
