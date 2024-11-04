@@ -120,6 +120,7 @@ Order by Percentage Desc;
 ## Data Visualisation Using Excel
 Created pivot tables and reports for visualizing the sales data in Excel.
 
+
 ## Data Visualisation Using Power BI for Sales Data
 
 ### Steps used to build an interactive PowerBI Dashboard
