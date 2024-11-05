@@ -127,7 +127,8 @@ Order by Percentage Desc;
 ```
 
 ## Data Visualisation Using Excel
-Created pivot tables and reports for visualizing the sales data in Excel.
+
+### Created pivot tables and reports for visualizing the sales data in Excel.
 ![Pivot Table Sales Data](https://github.com/user-attachments/assets/2f7ce0ca-45d6-4b0a-ad58-98ddbd87630e)
 
 ![Sales Report](https://github.com/user-attachments/assets/38b647c7-9a8d-4e7c-a0c8-3ff19b3e856b)
@@ -136,9 +137,37 @@ Created pivot tables and reports for visualizing the sales data in Excel.
 ## Data Visualisation Using Power BI for Sales Data
 
 ### Steps used to build an interactive PowerBI Dashboard
-1. Import and Transform Data: Imoorted, transformed and loaded sales data.
+1. Import and Transform Data: Imported, transformed and loaded sales data.
 3. Build Visualizations: Use bar, column,line, donut and pie charts to represent sales data across regions, sales,order dates, products etc.
 4. Add KPI and Slicers: Included KPIs for performance tracking and slicers for filtering data by orderdate.
 5. Format and Share: Customized the dashboard
 
 ![Screenshot sales powerbi](https://github.com/user-attachments/assets/0f3380b5-c2ae-490b-b817-96bb828cfd9a)
+
+## Insights
+### Total Sales Performance
+- Total Revenue: The Total Revenue is 2 Million.
+- Average Total Sales: The average total sales value is 211.78, indicating the average revenue per order.
+- Total Quantity and Order Count: A total quantity of 68K products sold across 9,921 orders shows the volume of sales activity.
+
+### Regional Sales
+- Total Revenue by Region: From the pie chart in Power BI and pivot table, the West region generates the most revenue (44% or 928K), followed by North (23%) and South (18%), while East contributes the least. This could indicate potential for growth in underperforming regions.
+- Average Sales by Region: From the pivot table, West has the highest average sales, suggesting a strong customer base or higher purchasing power in this region.
+
+### Product Performance
+1. Top Products by Total Sales and Quantity:
+- Shoes are the top product by total sales (613K), followed by Shirts (486K) and Hats (316K).
+- The quantity sold chart reveals that Hats have a higher volume of sales but not as high revenue, suggesting a lower price point.
+2. Revenue by Product and Region: Shoes perform best across multiple regions, indicating it’s a well-received product, while other products like Jackets and Gloves are more regionally specific.
+  
+### Sales Trends Over Time
+- Monthly Sales Trends: Sales peak in February (546K), then decrease, with slight rises in July and August, showing seasonal fluctuations that could align with customer demand patterns or promotional activities.
+- Trend of Total Sales Over Time: The line chart in Power BI highlights peaks in sales during specific months, suggesting possible recurring cycles (e.g., quarterly or bi-annual peaks).
+- 
+### Top Products by Orders
+The Top 10 Products by OrderID pivot table shows high-order activity for specific products, with Shoes and Shirts appearing frequently. This suggests that these products may have higher demand or popularity.
+
+### Potential Areas for Strategic Action
+Underperforming Regions: The East region has the lowest revenue, suggesting an opportunity to increase sales there through targeted marketing or promotions.
+Product-Specific Strategies: High sales in Hats by quantity but low revenue could be due to low pricing. An upsell strategy for higher-priced items could increase revenue.
+These insights help identify where the company can focus on marketing, inventory management, and targeted promotions, especially in lower-performing regions and with high-demand products. Additionally, monitoring the monthly sales trends could support timing promotions effectively during peak months.
