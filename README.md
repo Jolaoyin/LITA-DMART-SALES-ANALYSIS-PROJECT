@@ -163,11 +163,12 @@ Order by Percentage Desc;
 ### Sales Trends Over Time
 - Monthly Sales Trends: Sales peak in February (546K), then decrease, with slight rises in July and August, showing seasonal fluctuations that could align with customer demand patterns or promotional activities.
 - Trend of Total Sales Over Time: The line chart in Power BI highlights peaks in sales during specific months, suggesting possible recurring cycles (e.g., quarterly or bi-annual peaks).
-- 
+  
 ### Top Products by Orders
 The Top 10 Products by OrderID pivot table shows high-order activity for specific products, with Shoes and Shirts appearing frequently. This suggests that these products may have higher demand or popularity.
 
-### Potential Areas for Strategic Action
-Underperforming Regions: The East region has the lowest revenue, suggesting an opportunity to increase sales there through targeted marketing or promotions.
-Product-Specific Strategies: High sales in Hats by quantity but low revenue could be due to low pricing. An upsell strategy for higher-priced items could increase revenue.
-These insights help identify where the company can focus on marketing, inventory management, and targeted promotions, especially in lower-performing regions and with high-demand products. Additionally, monitoring the monthly sales trends could support timing promotions effectively during peak months.
+## Recommendations
+1. Promote More in Low-Sales Regions: Increase advertising or offer discounts in the East and South regions to boost sales.
+2. Focus on Best-Selling Products: Keep popular items like Shoes and Shirts well-stocked, and consider creating bundles with other items to increase sales.
+3. Run Sales During Slow Months: Offer discounts or special deals in months with lower sales, like March and April, to encourage more purchases.
+4. Adjust Inventory Based on Demand: Stock more of the high-demand items in regions where they sell best, and reduce stock of less popular items.
