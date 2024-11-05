@@ -140,3 +140,5 @@ Created pivot tables and reports for visualizing the sales data in Excel.
 3. Build Visualizations: Use bar, column,line, donut and pie charts to represent sales data across regions, sales,order dates, products etc.
 4. Add KPI and Slicers: Included KPIs for performance tracking and slicers for filtering data by orderdate.
 5. Format and Share: Customized the dashboard
+
+![Screenshot sales powerbi](https://github.com/user-attachments/assets/98e345cb-a825-4a38-935a-b054f85b247c)
