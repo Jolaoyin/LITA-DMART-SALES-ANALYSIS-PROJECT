@@ -128,9 +128,9 @@ Order by Percentage Desc;
 
 ## Data Visualisation Using Excel
 Created pivot tables and reports for visualizing the sales data in Excel.
-![Pivot Table Sales Data](https://github.com/user-attachments/assets/1f6c5f8f-3282-4c92-99d4-3cdbb3790a81)
+![Pivot Table Sales Data](https://github.com/user-attachments/assets/2f7ce0ca-45d6-4b0a-ad58-98ddbd87630e)
 
-![Sales Report](https://github.com/user-attachments/assets/13a770fc-c9a3-4c66-92d8-399cbc7aea4a)
+![Sales Report](https://github.com/user-attachments/assets/38b647c7-9a8d-4e7c-a0c8-3ff19b3e856b)
 
 
 ## Data Visualisation Using Power BI for Sales Data
