@@ -141,4 +141,4 @@ Created pivot tables and reports for visualizing the sales data in Excel.
 4. Add KPI and Slicers: Included KPIs for performance tracking and slicers for filtering data by orderdate.
 5. Format and Share: Customized the dashboard
 
-![Screenshot sales powerbi](https://github.com/user-attachments/assets/98e345cb-a825-4a38-935a-b054f85b247c)
+![Screenshot sales powerbi](https://github.com/user-attachments/assets/0f3380b5-c2ae-490b-b817-96bb828cfd9a)
